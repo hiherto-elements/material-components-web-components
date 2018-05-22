@@ -1,5 +1,5 @@
 {
-  "name": "@material/mwc-list",
+  "name": "@hiherto-components/mwc-list",
   "version": "0.1.0",
   "description": "",
   "main": "mwc-list-item.js",

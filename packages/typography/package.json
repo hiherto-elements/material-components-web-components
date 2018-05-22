@@ -1,5 +1,5 @@
 {
-  "name": "@material/mwc-typography",
+  "name": "@hiherto-components/mwc-typography",
   "version": "0.1.0",
   "description": "",
   "main": "mwc-typography-css.js",

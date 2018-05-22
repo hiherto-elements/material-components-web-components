@@ -1,5 +1,5 @@
 {
-  "name": "@material/mwc-icon-toggle",
+  "name": "@hiherto-components/mwc-icon-toggle",
   "version": "0.1.0",
   "description": "",
   "main": "mwc-icon-toggle.js",

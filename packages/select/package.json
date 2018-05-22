@@ -1,5 +1,5 @@
 {
-  "name": "@material/mwc-select",
+  "name": "@hiherto-components/mwc-select",
   "version": "0.1.0",
   "description": "",
   "main": "mwc-select.js",

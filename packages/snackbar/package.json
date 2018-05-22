@@ -1,5 +1,5 @@
 {
-  "name": "@material/mwc-snackbar",
+  "name": "@hiherto-components/mwc-snackbar",
   "version": "0.1.0",
   "description": "",
   "main": "mwc-snackbar.js",
