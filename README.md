@@ -1,5 +1,7 @@
 # Material Web Components
 
+> Warning: This is a fork. Done by a grumpy old man who does not want to sign a cla to contribute and who finds the long response time for patches sent by non googlers on any material design or polymer project hillariously long. Its not personal, I just need this stuff. 
+
 > Warning: These components are still a work in progress.
 
 Material Web Components helps developers execute [Material Design](https://www.material.io) using [web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components).
