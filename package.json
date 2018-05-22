@@ -4,8 +4,6 @@
   "description": "Material Components Web Components",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "npm run clean && mkdirp build && webpack --progress --colors",
-    "build:min": "mkdirp build && cross-env MDC_ENV=production webpack -p --progress --colors",
     "changelog": "standard-changelog -i CHANGELOG.md -k packages/material-components-web/package.json -w",
     "clean": "del-cli build/** build .closure-tmp/** .closure-tmp packages/*/node_modules",
     "dist": "npm run build && npm run build:min",
@@ -59,6 +57,7 @@
     "rollup-plugin-babel": "^3.0.4",
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-uglify": "^3.0.0",
+    "standard-changelog": "^1.0.19",
     "webpack": "^3.9.0",
     "webpack-dev-server": "^2.4.3"
   },
