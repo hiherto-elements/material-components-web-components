@@ -15,7 +15,7 @@
  */
 
 import {assert} from 'chai';
-import {Select} from '@material/mwc-select';
+import {Select} from '@hiherto-components/mwc-select';
 
 let element;
 

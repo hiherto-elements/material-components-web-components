@@ -14,10 +14,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-import {ComponentElement, MDCWebComponentMixin, html} from '@material/mwc-base/component-element.js';
+import {ComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/component-element.js';
 import {style} from './mwc-chip-css.js';
-import {MDCChip} from '@material/chips';
-import '@material/mwc-icon/mwc-icon-font.js';
+import {MDCChip} from '@hiherto-components/chips';
+import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 
 export class MDCWCChip extends MDCWebComponentMixin(MDCChip) {}
 

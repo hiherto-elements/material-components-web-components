@@ -30,11 +30,11 @@ A [Material Components](https://material.io/components/) icon implementation usi
 
   1. Import the mwc-button definition into your HTML page:
 
-      ```<script type="module" src="@material/mwc-button/index.js"></script>```
+      ```<script type="module" src="@hiherto-components/mwc-button/index.js"></script>```
 
       Or into your module script:
 
-      ```import {Button} from "@material/mwc-button"```
+      ```import {Button} from "@hiherto-components/mwc-button"```
 
   1. Create an instance of mwc-button in your HTML page, or via any framework that [supports rendering Custom Elements](https://custom-elements-everywhere.com/):
 

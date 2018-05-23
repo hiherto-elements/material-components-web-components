@@ -15,7 +15,7 @@
  */
 
 import {assert} from 'chai';
-import {style as typographyStyle} from '@material/mwc-typography';
+import {style as typographyStyle} from '@hiherto-components/mwc-typography';
 import {TemplateResult} from 'lit-html';
 
 suite('mwc-typography');

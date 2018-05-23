@@ -30,11 +30,11 @@ A [Material Components](https://material.io/components/) icon implementation usi
 
   1. Import the mwc-checkbox definition into your HTML page:
 
-      ```<script type="module" src="@material/mwc-checkbox/index.js"></script>```
+      ```<script type="module" src="@hiherto-components/mwc-checkbox/index.js"></script>```
 
       Or into your module script:
 
-      ```import {Checkbox} from "@material/mwc-checkbox"```
+      ```import {Checkbox} from "@hiherto-components/mwc-checkbox"```
 
   1. Create an instance of mwc-checkbox in your HTML page, or via any framework that [supports rendering Custom Elements](https://custom-elements-everywhere.com/):
 

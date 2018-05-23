@@ -16,9 +16,9 @@ limitations under the License.
 */
 import {LitElement, html, classString as c$} from '@polymer/lit-element/lit-element.js';
 import {style} from './mwc-fab-css.js';
-import {MDCWCRipple} from '@material/mwc-ripple/mwc-ripple.js';
-import {afterNextRender} from '@material/mwc-base/utils.js';
-import '@material/mwc-icon/mwc-icon-font.js';
+import {MDCWCRipple} from '@hiherto-components/mwc-ripple/mwc-ripple.js';
+import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';
+import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 
 export class Fab extends LitElement {
   static get properties() {

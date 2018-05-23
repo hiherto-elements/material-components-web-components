@@ -15,10 +15,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 import {LitElement, html} from '@polymer/lit-element/lit-element.js';
-import {MDCWebComponentMixin} from '@material/mwc-base/mdc-web-component.js';
-import {MDCTab} from '@material/tabs';
+import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
+import {MDCTab} from '@hiherto-components/tabs';
 import {style} from './mwc-tab-css.js';
-import '@material/mwc-icon/mwc-icon-font.js';
+import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 
 class MDCWCTab extends MDCWebComponentMixin(MDCTab) {}
 

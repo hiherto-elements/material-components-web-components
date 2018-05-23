@@ -14,10 +14,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-import {FormableComponentElement, MDCWebComponentMixin, html} from '@material/mwc-base/formable-component-element.js';
+import {FormableComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/formable-component-element.js';
 import {classString as c$} from '@polymer/lit-element/lit-element.js';
 import {style} from './mwc-slider-css.js';
-import {MDCSlider} from '@material/slider';
+import {MDCSlider} from '@hiherto-components/slider';
 
 export class MDCWCSlider extends MDCWebComponentMixin(MDCSlider) {}
 

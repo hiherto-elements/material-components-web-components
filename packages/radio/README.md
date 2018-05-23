@@ -30,11 +30,11 @@ A [Material Components](https://material.io/components/) icon implementation usi
 
   1. Import the mwc-radio definition into your HTML page:
 
-      ```<script type="module" src="@material/mwc-radio/index.js"></script>```
+      ```<script type="module" src="@hiherto-components/mwc-radio/index.js"></script>```
 
       Or into your module script:
 
-      ```import {Radio} from "@material/mwc-radio"```
+      ```import {Radio} from "@hiherto-components/mwc-radio"```
 
   1. Create an instance of mwc-radio in your HTML page, or via any framework that [supports rendering Custom Elements](https://custom-elements-everywhere.com/):
 

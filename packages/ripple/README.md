@@ -30,11 +30,11 @@ A [Material Components](https://material.io/components/) icon implementation usi
 
   1. Import the mwc-ripple definition into your HTML page:
 
-      ```<script type="module" src="@material/mwc-ripple/index.js"></script>```
+      ```<script type="module" src="@hiherto-components/mwc-ripple/index.js"></script>```
 
       Or into your module script:
 
-      ```import {Ripple} from "@material/mwc-ripple"```
+      ```import {Ripple} from "@hiherto-components/mwc-ripple"```
 
   1. Create an instance of mwc-ripple in your HTML page, or via any framework that [supports rendering Custom Elements](https://custom-elements-everywhere.com/):
 

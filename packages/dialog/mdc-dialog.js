@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import {MDCComponent} from '@material/base/index';
-import {MDCRipple} from '@material/ripple/index';
+import {MDCComponent} from '@hiherto-components/base/index';
+import {MDCRipple} from '@hiherto-components/ripple/index';
 
-import MDCDialogFoundation from '@material/dialog/foundation';
+import MDCDialogFoundation from '@hiherto-components/dialog/foundation';
 
 export {MDCDialogFoundation};
 

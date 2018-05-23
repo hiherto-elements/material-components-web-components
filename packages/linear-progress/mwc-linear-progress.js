@@ -14,9 +14,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-import {ComponentElement, MDCWebComponentMixin, html} from '@material/mwc-base/component-element.js';
+import {ComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/component-element.js';
 import {style} from './mwc-linear-progress-css.js';
-import {MDCLinearProgress} from '@material/linear-progress';
+import {MDCLinearProgress} from '@hiherto-components/linear-progress';
 
 export class MDCWCLinearProgress extends MDCWebComponentMixin(MDCLinearProgress) {}
 

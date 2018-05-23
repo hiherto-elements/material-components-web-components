@@ -14,11 +14,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-import {ComponentElement, html, MDCWebComponentMixin} from '@material/mwc-base/component-element.js';
-import {callWhenReady, findAssignedNode, afterNextRender} from '@material/mwc-base/utils.js';
+import {ComponentElement, html, MDCWebComponentMixin} from '@hiherto-components/mwc-base/component-element.js';
+import {callWhenReady, findAssignedNode, afterNextRender} from '@hiherto-components/mwc-base/utils.js';
 import {classString as c$} from '@polymer/lit-element/lit-element.js';
 import {style} from './mwc-formfield-css.js';
-import {MDCFormField} from '@material/form-field';
+import {MDCFormField} from '@hiherto-components/form-field';
 
 export class MDCWCFormField extends MDCWebComponentMixin(MDCFormField) {};
 

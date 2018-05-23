@@ -15,7 +15,7 @@
  */
 
 import {assert} from 'chai';
-import {IconToggle} from '@material/mwc-icon-toggle';
+import {IconToggle} from '@hiherto-components/mwc-icon-toggle';
 
 let element;
 

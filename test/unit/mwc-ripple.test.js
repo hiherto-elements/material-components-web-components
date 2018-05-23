@@ -15,8 +15,8 @@
  */
 
 import {assert} from 'chai';
-import {Ripple} from '@material/mwc-ripple';
-import {RippleSurface} from '@material/mwc-ripple/mwc-ripple-surface.js';
+import {Ripple} from '@hiherto-components/mwc-ripple';
+import {RippleSurface} from '@hiherto-components/mwc-ripple/mwc-ripple-surface.js';
 
 let element;
 

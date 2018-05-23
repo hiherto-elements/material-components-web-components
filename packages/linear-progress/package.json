@@ -10,10 +10,10 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@material/linear-progress": "^0.35.0",
-    "@material/mwc-base": "^0.1.0",
+    "@hiherto-components/mwc-base": "^0.1.0",
     "@polymer/lit-element": "^0.4.0"
   },
   "devDependencies": {
-    "@material/mwc-sass-render": "^0.0.1"
+    "@hiherto-components/mwc-sass-render": "^0.0.1"
   }
 }

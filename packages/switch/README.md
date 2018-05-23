@@ -30,11 +30,11 @@ A [Material Components](https://material.io/components/) icon implementation usi
 
   1. Import the mwc-switch definition into your HTML page:
 
-      ```<script type="module" src="@material/mwc-switch/index.js"></script>```
+      ```<script type="module" src="@hiherto-components/mwc-switch/index.js"></script>```
 
       Or into your module script:
 
-      ```import {Switch} from "@material/mwc-switch"```
+      ```import {Switch} from "@hiherto-components/mwc-switch"```
 
   1. Create an instance of mwc-switch in your HTML page, or via any framework that [supports rendering Custom Elements](https://custom-elements-everywhere.com/):
 

@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {LitElement, html} from '@polymer/lit-element/lit-element.js';
 import {style} from './mwc-switch-css.js';
-import {afterNextRender} from '@material/mwc-base/utils.js';
+import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';
 
 export class Switch extends LitElement {
   static get properties() {

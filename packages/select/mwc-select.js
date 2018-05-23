@@ -15,17 +15,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 import {LitElement, html} from '@polymer/lit-element/lit-element.js';
-import {MDCWebComponentMixin} from '@material/mwc-base/mdc-web-component.js';
-import {MDCWCMenu} from '@material/mwc-menu/mwc-menu.js';
-import {MDCSelect} from '@material/select';
+import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
+import {MDCWCMenu} from '@hiherto-components/mwc-menu/mwc-menu.js';
+import {MDCSelect} from '@hiherto-components/select';
 import {style} from './mwc-select-css.js';
-import {style as menuStyle} from '@material/mwc-menu/mwc-menu-css.js';
-import {afterNextRender} from '@material/mwc-base/utils.js';
+import {style as menuStyle} from '@hiherto-components/mwc-menu/mwc-menu-css.js';
+import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';
 
 // this element depend on the `mwc-list-item` and `mwc-list-item-separator`
 // elements to be registered ahead of time
-import '@material/mwc-list';
-import '@material/mwc-list/mwc-list-item-separator.js';
+import '@hiherto-components/mwc-list';
+import '@hiherto-components/mwc-list/mwc-list-item-separator.js';
 
 class MDCWSelect extends MDCWebComponentMixin(MDCSelect) {
   get items() {

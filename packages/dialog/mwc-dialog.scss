@@ -15,8 +15,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-@import '@material/button/mdc-button.scss';
-@import '@material/dialog/mdc-dialog.scss';
+@import '@hiherto-components/button/mdc-button.scss';
+@import '@hiherto-components/dialog/mdc-dialog.scss';
 
 .mdc-dialog__body--scrollable {
   max-height: var(--mwc-dialog-maxHeight, 195px);

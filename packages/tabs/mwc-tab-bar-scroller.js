@@ -15,11 +15,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 import {LitElement, html} from '@polymer/lit-element/lit-element.js';
-import {MDCWebComponentMixin} from '@material/mwc-base/mdc-web-component.js';
-import {MDCTabBarScroller} from '@material/tabs';
+import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
+import {MDCTabBarScroller} from '@hiherto-components/tabs';
 import {style} from './mwc-tab-bar-scroller-css.js';
-import {afterNextRender} from '@material/mwc-base/utils.js';
-import '@material/mwc-icon/mwc-icon-font.js';
+import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';
+import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 
 // this element depends on `mwc-tab-bar` to be registered ahead of time
 import './mwc-tab-bar.js';

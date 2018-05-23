@@ -14,13 +14,13 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-import {ComponentElement, html} from '@material/mwc-base/component-element.js';
+import {ComponentElement, html} from '@hiherto-components/mwc-base/component-element.js';
 import {classString as c$} from '@polymer/lit-element/lit-element.js';
-import {MDCWebComponentMixin} from '@material/mwc-base/mdc-web-component.js';
-import {MDCTextField} from '@material/textfield';
+import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
+import {MDCTextField} from '@hiherto-components/textfield';
 import {style} from './mwc-textfield-css.js';
-import {afterNextRender} from '@material/mwc-base/utils.js';
-import '@material/mwc-icon/mwc-icon-font.js';
+import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';
+import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 
 class MDCWCTextField extends MDCWebComponentMixin(MDCTextField) {}
 

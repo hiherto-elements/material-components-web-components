@@ -15,10 +15,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 import {LitElement, html, classString as c$} from '@polymer/lit-element/lit-element.js';
-import {MDCWebComponentMixin} from '@material/mwc-base/mdc-web-component.js';
+import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
 import {style} from './mwc-ripple-css.js';
-import {MDCRipple} from '@material/ripple';
-import {afterNextRender} from '@material/mwc-base/utils.js';
+import {MDCRipple} from '@hiherto-components/ripple';
+import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';
 
 // TODO(sorvell): These are MDC utils. Would be nice to use em, but they don't appear to be easily
 // exposed via the public builds.

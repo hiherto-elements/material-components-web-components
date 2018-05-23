@@ -14,9 +14,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-import {FormableComponentElement, MDCWebComponentMixin, html} from '@material/mwc-base/formable-component-element.js';
+import {FormableComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/formable-component-element.js';
 import {style} from './mwc-checkbox-css.js';
-import {MDCCheckbox} from '@material/checkbox';
+import {MDCCheckbox} from '@hiherto-components/checkbox';
 
 export class MDCWCCheckbox extends MDCWebComponentMixin(MDCCheckbox) {}
 

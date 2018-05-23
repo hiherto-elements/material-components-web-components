@@ -30,11 +30,11 @@ A [Material Components](https://material.io/components/) icon implementation usi
 
   1. Import the mwc-fab definition into your HTML page:
 
-      ```<script type="module" src="@material/mwc-fab/index.js"></script>```
+      ```<script type="module" src="@hiherto-components/mwc-fab/index.js"></script>```
 
       Or into your module script:
 
-      ```import {Fab} from "@material/mwc-fab"```
+      ```import {Fab} from "@hiherto-components/mwc-fab"```
 
   1. Create an instance of mwc-fab in your HTML page, or via any framework that [supports rendering Custom Elements](https://custom-elements-everywhere.com/):
 

@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {LitElement, html, classString as c$, renderAttributes} from '@polymer/lit-element/lit-element.js';
 import {style} from './mwc-list-item-css.js';
-import '@material/mwc-icon/mwc-icon-font.js';
+import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 
 export class ListItem extends LitElement {
   static get properties() {

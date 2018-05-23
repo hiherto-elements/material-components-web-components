@@ -15,8 +15,8 @@
  */
 
 import {assert} from 'chai';
-import {Checkbox} from '@material/mwc-checkbox';
-import {MDCCheckbox} from '@material/checkbox';
+import {Checkbox} from '@hiherto-components/mwc-checkbox';
+import {MDCCheckbox} from '@hiherto-components/checkbox';
 
 let element;
 
