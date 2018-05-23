@@ -14,7 +14,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-import {LitElement, html} from '@polymer/lit-element/lit-element.js';
+import {LitElement} from '@polymer/lit-element/lit-element.js';
 import {afterNextRender} from './utils.js';
 export {html} from '@polymer/lit-element/lit-element.js';
 export {MDCWebComponentMixin} from './mdc-web-component.js';

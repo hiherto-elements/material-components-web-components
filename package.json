@@ -6,9 +6,7 @@
   "scripts": {
     "changelog": "standard-changelog -i CHANGELOG.md -k packages/material-components-web/package.json -w",
     "clean": "del-cli build/** build .closure-tmp/** .closure-tmp packages/*/node_modules",
-    "dist": "npm run build && npm run build:min",
     "dev": "polyserve --npm --module-resolution=node",
-    "fix": "npm-run-all --parallel fix:*",
     "lint:js": "eslint packages test scripts webpack.config.js demos/webpack.config.js karma.conf.js",
     "lint:imports": "node scripts/check-imports.js",
     "lint": "npm-run-all --parallel lint:*",
