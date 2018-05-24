@@ -56,7 +56,7 @@ export class Checkbox extends FormableComponentElement {
 
   // TODO(sorvell) #css: add outline none to avoid focus decoration
   _renderStyle() {
-    return style;
+    return style
   }
 
   _render({checked, value}) {
