@@ -23,8 +23,6 @@
     "@hiherto-components/mwc-slider": "*",
     "@hiherto-components/mwc-ripple": "*",
     "@hiherto-components/mwc-snackbar": "*",
-    "@hiherto-components/mwc-linear-progress": "*"
-    
-    
+    "@hiherto-components/mwc-linear-progress": "*" 
   }
 }
