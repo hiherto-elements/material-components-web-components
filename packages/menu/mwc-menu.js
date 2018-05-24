@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 import {ComponentElement, html, MDCWebComponentMixin} from '@hiherto-components/mwc-base/component-element.js';
-import {MDCMenu, Corner} from '@hiherto-components/menu';
+import {MDCMenu, Corner} from '@material/menu';
 import {style} from './mwc-menu-css.js';
 
 // this element depend on the `mwc-list-item` and `mwc-list-item-separator`

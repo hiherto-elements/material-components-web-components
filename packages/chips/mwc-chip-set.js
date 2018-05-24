@@ -17,7 +17,7 @@ limitations under the License.
 import {ComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/component-element.js';
 import {classString as c$} from '@polymer/lit-element/lit-element.js';
 import {style} from './mwc-chip-set-css.js';
-import {MDCChipSet} from '@hiherto-components/chips';
+import {MDCChipSet} from '@material/chips/chip-set';
 
 export class MDCWCChipSet extends MDCWebComponentMixin(MDCChipSet) {
   get chips() {

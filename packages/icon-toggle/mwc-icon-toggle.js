@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {ComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/component-element.js';
 import {style} from './mwc-icon-toggle-css.js';
-import {MDCIconToggle} from '@hiherto-components/icon-toggle';
+import {MDCIconToggle} from '@material/icon-toggle';
 import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 
 export class MDCWCIconToggle extends MDCWebComponentMixin(MDCIconToggle) {}

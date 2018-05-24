@@ -17,7 +17,7 @@ limitations under the License.
 import {FormableComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/formable-component-element.js';
 import {classString as c$} from '@polymer/lit-element/lit-element.js';
 import {style} from './mwc-slider-css.js';
-import {MDCSlider} from '@hiherto-components/slider';
+import {MDCSlider} from '@material/slider';
 
 export class MDCWCSlider extends MDCWebComponentMixin(MDCSlider) {}
 

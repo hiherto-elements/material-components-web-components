@@ -18,7 +18,7 @@ import {ComponentElement, html, MDCWebComponentMixin} from '@hiherto-components/
 import {callWhenReady, findAssignedNode, afterNextRender} from '@hiherto-components/mwc-base/utils.js';
 import {classString as c$} from '@polymer/lit-element/lit-element.js';
 import {style} from './mwc-formfield-css.js';
-import {MDCFormField} from '@hiherto-components/form-field';
+import {MDCFormField} from '@material/form-field';
 
 export class MDCWCFormField extends MDCWebComponentMixin(MDCFormField) {};
 

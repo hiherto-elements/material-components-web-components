@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {ComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/component-element.js';
 import {style} from './mwc-snackbar-css.js';
-import {MDCSnackbar} from '@hiherto-components/snackbar';
+import {MDCSnackbar} from '@material/snackbar';
 
 export class MDCWCSnackbar extends MDCWebComponentMixin(MDCSnackbar) {}
 

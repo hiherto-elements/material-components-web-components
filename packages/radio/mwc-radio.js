@@ -17,7 +17,7 @@ limitations under the License.
 import {FormableComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/formable-component-element.js';
 import {style} from './mwc-radio-css.js';
 import {SelectionController} from '@hiherto-components/mwc-base/selection-controller.js';
-import {MDCRadio} from '@hiherto-components/radio';
+import {MDCRadio} from '@material/radio';
 
 export class MDCWCRadio extends MDCWebComponentMixin(MDCRadio) {}
 

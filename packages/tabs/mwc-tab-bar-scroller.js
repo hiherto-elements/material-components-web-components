@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {LitElement, html} from '@polymer/lit-element/lit-element.js';
 import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
-import {MDCTabBarScroller} from '@hiherto-components/tabs';
+import {MDCTabBarScroller} from '@material/tabs';
 import {style} from './mwc-tab-bar-scroller-css.js';
 import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';
 import '@hiherto-components/mwc-icon/mwc-icon-font.js';

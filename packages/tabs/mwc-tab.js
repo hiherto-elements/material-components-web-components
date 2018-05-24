@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {LitElement, html} from '@polymer/lit-element/lit-element.js';
 import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
-import {MDCTab} from '@hiherto-components/tabs';
+import {MDCTab} from '@material/tabs';
 import {style} from './mwc-tab-css.js';
 import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 

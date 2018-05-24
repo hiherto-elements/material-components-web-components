@@ -17,7 +17,7 @@ limitations under the License.
 import {LitElement, html} from '@polymer/lit-element/lit-element.js';
 import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
 import {MDCWCMenu} from '@hiherto-components/mwc-menu/mwc-menu.js';
-import {MDCSelect} from '@hiherto-components/select';
+import {MDCSelect} from '@material/select';
 import {style} from './mwc-select-css.js';
 import {style as menuStyle} from '@hiherto-components/mwc-menu/mwc-menu-css.js';
 import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';

@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {FormableComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/formable-component-element.js';
 import {style} from './mwc-checkbox-css.js';
-import {MDCCheckbox} from '@hiherto-components/checkbox';
+import {MDCCheckbox} from '@material/checkbox';
 
 export class MDCWCCheckbox extends MDCWebComponentMixin(MDCCheckbox) {}
 

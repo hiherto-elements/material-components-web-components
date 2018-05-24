@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {ComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/component-element.js';
 import {style} from './mwc-linear-progress-css.js';
-import {MDCLinearProgress} from '@hiherto-components/linear-progress';
+import {MDCLinearProgress} from '@material/linear-progress';
 
 export class MDCWCLinearProgress extends MDCWebComponentMixin(MDCLinearProgress) {}
 

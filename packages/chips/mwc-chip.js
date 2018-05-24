@@ -16,7 +16,7 @@ limitations under the License.
 */
 import {ComponentElement, MDCWebComponentMixin, html} from '@hiherto-components/mwc-base/component-element.js';
 import {style} from './mwc-chip-css.js';
-import {MDCChip} from '@hiherto-components/chips';
+import {MDCChip} from '@material/chips';
 import '@hiherto-components/mwc-icon/mwc-icon-font.js';
 
 export class MDCWCChip extends MDCWebComponentMixin(MDCChip) {}

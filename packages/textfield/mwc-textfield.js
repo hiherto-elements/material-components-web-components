@@ -17,7 +17,7 @@ limitations under the License.
 import {ComponentElement, html} from '@hiherto-components/mwc-base/component-element.js';
 import {classString as c$} from '@polymer/lit-element/lit-element.js';
 import {MDCWebComponentMixin} from '@hiherto-components/mwc-base/mdc-web-component.js';
-import {MDCTextField} from '@hiherto-components/textfield';
+import {MDCTextField} from '@material/textfield';
 import {style} from './mwc-textfield-css.js';
 import {afterNextRender} from '@hiherto-components/mwc-base/utils.js';
 import '@hiherto-components/mwc-icon/mwc-icon-font.js';
